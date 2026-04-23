@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribuição / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Arquivos de ambiente
+.env
+.env.*
+*.env
+
+# Banco de dados
+db.sqlite3
+db.sqlite3-journal
+
+# Arquivos de log
+*.log
+
+# Arquivos estáticos coletados
+staticfiles/
+
+# Media uploads
+media/
+
+# Arquivos do Django
+*.pot
+*.mo
+
+# Arquivos locais
+local_settings.py
+
+# Migrações (opcional - geralmente NÃO se ignora)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Coverage / Test
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+*.iml
+
+# Node (caso use frontend junto)
+node_modules/
+npm-debug.log
+yarn-error.log
